@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Lato&display=swap');
+
+:root {
+    --bs-org: #ff7845;
+    --bs-blu: #25a6ff;
+    --bs-wht: #ffffff;
+    --bs-gre: #7cc92b;
+    --bs-pink: #ff589b;
+    --bs-soil: #fec637;
+    --bs-blck: #000000;
+    --bs-voil: #7756bf;
+}
+
+/* img {
+    width: 100%;
+} */
+
+.pink {
+    color: var(--bs-pink) !important;
+}
+
+.voil {
+    color: var(--bs-voil) !important;
+}
+
+.footer img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.gry {
+    color: #afa9bb;
+}
+
+.featured img {
+    max-width: 100%;
+}
+
+.gre {
+    color: var(--bs-gre) !important;
+}
+
+.blck {
+    color: var(--bs-blck) !important;
+}
+
+.soil {
+    color: var(--bs-soil) !important;
+}
+
+.bg-pink {
+    background: var(--bs-pink) !important;
+}
+
+.bg-gre {
+    background: var(--bs-gre) !important;
+}
+
+.wht {
+    color: var(--bs-wht) !important;
+}
+
+.org {
+    color: var(--bs-org) !important;
+}
+
+.bg-org {
+    background: var(--bs-org) !important;
+}
+
+.bg-blu {
+    background: var(--bs-blu) !important;
+}
+
+.blu {
+    color: var(--bs-blu) !important;
+}
+
+.free {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.fsp {
+    font-size: 13px;
+}
+
+.content-aline {
+    display: flex;
+    align-items: center;
+}
+
+.content-aline1 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.active {
+    background: #ff7845;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+.banner {
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    height: 75.5vh;
+}
+
+.news {
+    background: url(../images/news.png), #25a8ff7e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    background: #7cc92b !important;
+    padding: 12px 25px;
+}
+
+.btn2 {
+    background: #25a6ff !important;
+    padding: 12px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px;
+}
+
+.btn5 {
+    background: #25a6ff !important;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px;
+}
+
+.btn5:hover {
+    background: #7cc92b !important;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+input[type="email"] {
+    color: #000000 !important;
+}
+
+.btn3 {
+    background: #ff589b !important;
+    padding: 12px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px;
+}
+
+.btn4 {
+    background: #ff7845 !important;
+    padding: 12px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 5px;
+}
+
+.border-color {
+    border: 35px solid #7756bf;
+}
+
+.border-color2 {
+    border: 35px solid #7cc92b;
+}
+
+.girl-bg {
+    background: url(../images/girlbg.png) no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-position: right;
+    border-radius: 8px;
+}
+
+.girl-bg2 {
+    background: #7cc92b;
+    border: 0;
+    border-radius: 8px;
+}
+
+.margin {
+    margin-left: 10px;
+}
+
+input[type="email"] {
+    width: 21rem;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 0 0 12px;
+    background: #5cbdff;
+    color: white;
+}
+
+.form input[type="text"] {
+    width: 40rem;
+    padding: 15px 0 15px 6px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.form input[type="email"] {
+    width: 40rem;
+    background: #ffffff;
+    padding: 15px 0 15px 6px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.form textarea {
+    width: 40rem;
+    background: #ffffff;
+    padding: 15px 0 15px 6px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+@media(max-width: 430px) {
+    .fn input[type="text"] {
+        width: 20rem;
+    }
+
+    .fn input[type="email"] {
+        width: 20rem;
+    }
+
+    .form textarea {
+        width: 20rem;
+    }
+
+    .w-21 {
+        width: 21rem;
+    }
+}
